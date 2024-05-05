@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_twitter_clone/model/user.dart';
-import 'package:flutter_twitter_clone/state/chats/chatState.dart';
-import 'package:flutter_twitter_clone/state/searchState.dart';
-import 'package:flutter_twitter_clone/ui/page/profile/widgets/circular_image.dart';
-import 'package:flutter_twitter_clone/ui/theme/theme.dart';
-import 'package:flutter_twitter_clone/widgets/customAppBar.dart';
-import 'package:flutter_twitter_clone/widgets/customWidgets.dart';
-import 'package:flutter_twitter_clone/widgets/newWidget/title_text.dart';
 import 'package:provider/provider.dart';
+import 'package:twitter_clone_ui/model/user.dart';
+import 'package:twitter_clone_ui/state/chats/chatState.dart';
+import 'package:twitter_clone_ui/state/searchState.dart';
+import 'package:twitter_clone_ui/ui/page/profile/widgets/circular_image.dart';
+import 'package:twitter_clone_ui/ui/theme/theme.dart';
+import 'package:twitter_clone_ui/widgets/customAppBar.dart';
+import 'package:twitter_clone_ui/widgets/customWidgets.dart';
+import 'package:twitter_clone_ui/widgets/newWidget/title_text.dart';
 
 class NewMessagePage extends StatefulWidget {
   const NewMessagePage({Key? key, this.scaffoldKey}) : super(key: key);
