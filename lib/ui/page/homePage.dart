@@ -3,24 +3,24 @@ import 'dart:async';
 import 'package:firebase_dynamic_links/firebase_dynamic_links.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_twitter_clone/helper/enum.dart';
-import 'package:flutter_twitter_clone/helper/utility.dart';
-import 'package:flutter_twitter_clone/model/push_notification_model.dart';
-import 'package:flutter_twitter_clone/resource/push_notification_service.dart';
-import 'package:flutter_twitter_clone/state/appState.dart';
-import 'package:flutter_twitter_clone/state/authState.dart';
-import 'package:flutter_twitter_clone/state/chats/chatState.dart';
-import 'package:flutter_twitter_clone/state/suggestionUserState.dart';
-import 'package:flutter_twitter_clone/state/feedState.dart';
-import 'package:flutter_twitter_clone/state/notificationState.dart';
-import 'package:flutter_twitter_clone/state/searchState.dart';
-import 'package:flutter_twitter_clone/ui/page/feed/feedPage.dart';
-import 'package:flutter_twitter_clone/ui/page/feed/feedPostDetail.dart';
-import 'package:flutter_twitter_clone/ui/page/feed/suggestedUsers.dart';
-import 'package:flutter_twitter_clone/ui/page/message/chatListPage.dart';
-import 'package:flutter_twitter_clone/ui/page/profile/profilePage.dart';
-import 'package:flutter_twitter_clone/widgets/bottomMenuBar/bottomMenuBar.dart';
 import 'package:provider/provider.dart';
+import 'package:twitter_clone_ui/helper/enum.dart';
+import 'package:twitter_clone_ui/helper/utility.dart';
+import 'package:twitter_clone_ui/model/push_notification_model.dart';
+import 'package:twitter_clone_ui/resource/push_notification_service.dart';
+import 'package:twitter_clone_ui/state/appState.dart';
+import 'package:twitter_clone_ui/state/authState.dart';
+import 'package:twitter_clone_ui/state/chats/chatState.dart';
+import 'package:twitter_clone_ui/state/feedState.dart';
+import 'package:twitter_clone_ui/state/notificationState.dart';
+import 'package:twitter_clone_ui/state/searchState.dart';
+import 'package:twitter_clone_ui/state/suggestionUserState.dart';
+import 'package:twitter_clone_ui/ui/page/feed/feedPage.dart';
+import 'package:twitter_clone_ui/ui/page/feed/feedPostDetail.dart';
+import 'package:twitter_clone_ui/ui/page/feed/suggestedUsers.dart';
+import 'package:twitter_clone_ui/ui/page/message/chatListPage.dart';
+import 'package:twitter_clone_ui/ui/page/profile/profilePage.dart';
+import 'package:twitter_clone_ui/widgets/bottomMenuBar/bottomMenuBar.dart';
 
 import 'common/locator.dart';
 import 'common/sidebar.dart';
@@ -120,12 +120,12 @@ class _HomePageState extends State<HomePage> {
     /// If you are mentioned in tweet then it redirect to user profile who mentioned you in a tweet
     /// You can check that tweet on his profile timeline
     /// `model.data.senderId` is user id who tagged you in a tweet
-    else if (model.type == NotificationType.Mention.toString() &&
-        model.receiverId == authState.user!.uid) {
-      var feedState = Provider.of<FeedState>(context, listen: false);
-      feedState.getPostDetailFromDatabase(model.tweetId);
-      Navigator.push(context, FeedPostDetail.getRoute(model.tweetId));
-    }
+    // else if (model.type == NotificationType.Mention.toString() &&
+    //     model.receiverId == authState.user!.uid) {
+    //   var feedState = Provider.of<FeedState>(context, listen: false);
+    //   feedState.getPostDetailFromDatabase(model.tweetId);
+    //   Navigator.push(context, FeedPostDetail.getRoute(model.tweetId));
+    // }
   }
 
   void initChat() {
