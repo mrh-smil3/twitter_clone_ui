@@ -5,13 +5,12 @@ import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_twitter_clone/helper/utility.dart';
-import 'package:flutter_twitter_clone/model/user.dart';
-import 'package:flutter_twitter_clone/ui/page/profile/profilePage.dart';
-import 'package:flutter_twitter_clone/ui/page/profile/widgets/circular_image.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:qr_flutter/qr_flutter.dart';
+import 'package:twitter_clone_ui/helper/utility.dart';
+import 'package:twitter_clone_ui/model/user.dart';
+import 'package:twitter_clone_ui/ui/page/profile/profilePage.dart';
+import 'package:twitter_clone_ui/ui/page/profile/widgets/circular_image.dart';
 
 import 'dot_indicator.dart';
 
@@ -188,6 +187,8 @@ class _ScanState extends State<ScanScreen> with SingleTickerProviderStateMixin {
     pageController.dispose();
     super.dispose();
   }
+
+  getApplicationDocumentsDirectory() {}
 }
 
 class QrCode extends StatefulWidget {
