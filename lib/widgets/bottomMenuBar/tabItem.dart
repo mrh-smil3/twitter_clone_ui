@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_twitter_clone/ui/theme/theme.dart';
+import 'package:twitter_clone_ui/ui/theme/theme.dart';
 
 import '../customWidgets.dart';
 
