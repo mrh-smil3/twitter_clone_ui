@@ -31,16 +31,16 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider<AppState>(create: (_) => AppState()),
         ChangeNotifierProvider<AuthState>(create: (_) => AuthState()),
-        // ChangeNotifierProvider<FeedState>(create: (_) => FeedState()),
-        // ChangeNotifierProvider<ChatState>(create: (_) => ChatState()),
+        ChangeNotifierProvider<FeedState>(create: (_) => FeedState()),
+        ChangeNotifierProvider<ChatState>(create: (_) => ChatState()),
         ChangeNotifierProvider<SearchState>(create: (_) => SearchState()),
         ChangeNotifierProvider<NotificationState>(
             create: (_) => NotificationState()),
-        //   ChangeNotifierProvider<SuggestionsState>(
-        //       create: (_) => SuggestionsState()),
+        ChangeNotifierProvider<SuggestionsState>(
+            create: (_) => SuggestionsState()),
       ],
       child: MaterialApp(
-        title: 'Fwitter',
+        title: 'Twitter',
         theme: AppTheme.appTheme.copyWith(
           textTheme: GoogleFonts.mulishTextTheme(
             Theme.of(context).textTheme,

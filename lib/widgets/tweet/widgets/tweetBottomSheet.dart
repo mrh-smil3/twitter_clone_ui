@@ -1,16 +1,17 @@
 import 'package:firebase_dynamic_links/firebase_dynamic_links.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_twitter_clone/helper/enum.dart';
-import 'package:flutter_twitter_clone/helper/utility.dart';
-import 'package:flutter_twitter_clone/model/feedModel.dart';
-import 'package:flutter_twitter_clone/model/user.dart';
-import 'package:flutter_twitter_clone/state/authState.dart';
-import 'package:flutter_twitter_clone/state/feedState.dart';
-import 'package:flutter_twitter_clone/ui/theme/theme.dart';
-import 'package:flutter_twitter_clone/widgets/customWidgets.dart';
-import 'package:flutter_twitter_clone/widgets/share_widget.dart';
-import 'package:flutter_twitter_clone/widgets/tweet/tweet.dart';
+
 import 'package:provider/provider.dart';
+import 'package:twitter_clone_ui/helper/enum.dart';
+import 'package:twitter_clone_ui/helper/utility.dart';
+import 'package:twitter_clone_ui/model/feedModel.dart';
+import 'package:twitter_clone_ui/model/user.dart';
+import 'package:twitter_clone_ui/state/authState.dart';
+import 'package:twitter_clone_ui/state/feedState.dart';
+import 'package:twitter_clone_ui/ui/theme/theme.dart';
+import 'package:twitter_clone_ui/widgets/customWidgets.dart';
+import 'package:twitter_clone_ui/widgets/share_widget.dart';
+import 'package:twitter_clone_ui/widgets/tweet/tweet.dart';
 
 class TweetBottomSheet {
   Widget tweetOptionIcon(BuildContext context,

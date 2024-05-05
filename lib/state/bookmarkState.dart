@@ -1,11 +1,12 @@
 import 'dart:async';
 
 import 'package:firebase_database/firebase_database.dart';
-import 'package:flutter_twitter_clone/helper/shared_prefrence_helper.dart';
-import 'package:flutter_twitter_clone/helper/utility.dart';
-import 'package:flutter_twitter_clone/model/bookmarkModel.dart';
-import 'package:flutter_twitter_clone/model/feedModel.dart';
-import 'package:flutter_twitter_clone/ui/page/common/locator.dart';
+import 'package:twitter_clone_ui/helper/shared_prefrence_helper.dart';
+import 'package:twitter_clone_ui/helper/utility.dart';
+import 'package:twitter_clone_ui/model/bookmarkModel.dart';
+import 'package:twitter_clone_ui/model/feedModel.dart';
+import 'package:twitter_clone_ui/ui/page/common/locator.dart';
+
 import 'appState.dart';
 
 class BookmarkState extends AppState {

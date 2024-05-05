@@ -22,7 +22,7 @@ class FollowListState extends AppState {
   UserModel? _currentUser;
   late StateType stateType;
 
-  bool get isbusy => null;
+  bool? get busy => null;
 
   /// Follow / Unfollow user
   Future<void> followUser(UserModel secondUser) async {

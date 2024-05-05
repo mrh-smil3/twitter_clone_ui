@@ -1,6 +1,6 @@
 // ignore_for_file: avoid_print
 
-import 'package:flutter_twitter_clone/model/user.dart';
+import 'package:twitter_clone_ui/model/user.dart';
 
 class FeedModel {
   String? key;

@@ -1,34 +1,19 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:flutter_twitter_clone/ui/page/Auth/selectAuthMethod.dart';
-import 'package:flutter_twitter_clone/ui/page/Auth/verifyEmail.dart';
-import 'package:flutter_twitter_clone/ui/page/common/splash.dart';
-import 'package:flutter_twitter_clone/ui/page/feed/composeTweet/composeTweet.dart';
-import 'package:flutter_twitter_clone/ui/page/feed/composeTweet/state/composeTweetState.dart';
-import 'package:flutter_twitter_clone/ui/page/homePage.dart';
-import 'package:flutter_twitter_clone/ui/page/message/conversationInformation/conversationInformation.dart';
-import 'package:flutter_twitter_clone/ui/page/message/newMessagePage.dart';
-import 'package:flutter_twitter_clone/ui/page/profile/follow/followerListPage.dart';
-import 'package:flutter_twitter_clone/ui/page/search/SearchPage.dart';
-import 'package:flutter_twitter_clone/ui/page/settings/accountSettings/about/aboutTwitter.dart';
-import 'package:flutter_twitter_clone/ui/page/settings/accountSettings/accessibility/accessibility.dart';
-import 'package:flutter_twitter_clone/ui/page/settings/accountSettings/accountSettingsPage.dart';
-import 'package:flutter_twitter_clone/ui/page/settings/accountSettings/contentPrefrences/contentPreference.dart';
-import 'package:flutter_twitter_clone/ui/page/settings/accountSettings/contentPrefrences/trends/trendsPage.dart';
-import 'package:flutter_twitter_clone/ui/page/settings/accountSettings/dataUsage/dataUsagePage.dart';
-import 'package:flutter_twitter_clone/ui/page/settings/accountSettings/displaySettings/displayAndSoundPage.dart';
-import 'package:flutter_twitter_clone/ui/page/settings/accountSettings/notifications/notificationPage.dart';
-import 'package:flutter_twitter_clone/ui/page/settings/accountSettings/privacyAndSafety/directMessage/directMessage.dart';
-import 'package:flutter_twitter_clone/ui/page/settings/accountSettings/privacyAndSafety/privacyAndSafetyPage.dart';
-import 'package:flutter_twitter_clone/ui/page/settings/accountSettings/proxy/proxyPage.dart';
-import 'package:flutter_twitter_clone/ui/page/settings/settingsAndPrivacyPage.dart';
+
 import 'package:provider/provider.dart';
+import 'package:twitter_clone_ui/ui/page/common/splash.dart';
+import 'package:twitter_clone_ui/ui/page/feed/composeTweet/composeTweet.dart';
+import 'package:twitter_clone_ui/ui/page/feed/composeTweet/state/composeTweetState.dart';
+import 'package:twitter_clone_ui/ui/page/homePage.dart';
+import 'package:twitter_clone_ui/ui/page/message/conversationInformation/conversationInformation.dart';
+import 'package:twitter_clone_ui/ui/page/message/newMessagePage.dart';
+import 'package:twitter_clone_ui/ui/page/profile/follow/followerListPage.dart';
+import 'package:twitter_clone_ui/ui/page/search/SearchPage.dart';
 
 import '../helper/customRoute.dart';
-import '../ui/page/Auth/forgetPasswordPage.dart';
-import '../ui/page/Auth/signin.dart';
-import '../ui/page/Auth/signup.dart';
+
 import '../ui/page/feed/feedPostDetail.dart';
 import '../ui/page/feed/imageViewPage.dart';
 import '../ui/page/message/chatScreenPage.dart';

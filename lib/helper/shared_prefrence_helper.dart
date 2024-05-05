@@ -1,7 +1,8 @@
-import 'package:flutter_twitter_clone/model/link_media_info.dart';
 import 'dart:convert';
-import 'package:flutter_twitter_clone/model/user.dart';
+
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:twitter_clone_ui/model/link_media_info.dart';
+import 'package:twitter_clone_ui/model/user.dart';
 
 class SharedPreferenceHelper {
   SharedPreferenceHelper._internal();
