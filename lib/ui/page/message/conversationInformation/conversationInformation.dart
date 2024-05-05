@@ -4,6 +4,8 @@ import 'package:twitter_clone_ui/model/user.dart';
 import 'package:twitter_clone_ui/state/chats/chatState.dart';
 import 'package:twitter_clone_ui/ui/page/profile/profilePage.dart';
 import 'package:twitter_clone_ui/ui/page/profile/widgets/circular_image.dart';
+import 'package:twitter_clone_ui/ui/page/settings/widgets/headerWidget.dart';
+import 'package:twitter_clone_ui/ui/page/settings/widgets/settingsRowWidget.dart';
 import 'package:twitter_clone_ui/ui/theme/theme.dart';
 import 'package:twitter_clone_ui/widgets/customAppBar.dart';
 import 'package:twitter_clone_ui/widgets/customWidgets.dart';

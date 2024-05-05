@@ -3,14 +3,31 @@
 import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
+import 'package:twitter_clone_ui/ui/page/Auth/forgetPasswordPage.dart';
+import 'package:twitter_clone_ui/ui/page/Auth/selectAuthMethod.dart';
+import 'package:twitter_clone_ui/ui/page/Auth/signin.dart';
+import 'package:twitter_clone_ui/ui/page/Auth/signup.dart';
+import 'package:twitter_clone_ui/ui/page/Auth/verifyEmail.dart';
 import 'package:twitter_clone_ui/ui/page/common/splash.dart';
 import 'package:twitter_clone_ui/ui/page/feed/composeTweet/composeTweet.dart';
 import 'package:twitter_clone_ui/ui/page/feed/composeTweet/state/composeTweetState.dart';
 import 'package:twitter_clone_ui/ui/page/homePage.dart';
 import 'package:twitter_clone_ui/ui/page/message/conversationInformation/conversationInformation.dart';
 import 'package:twitter_clone_ui/ui/page/message/newMessagePage.dart';
+import 'package:twitter_clone_ui/ui/page/notification/notificationPage.dart';
 import 'package:twitter_clone_ui/ui/page/profile/follow/followerListPage.dart';
 import 'package:twitter_clone_ui/ui/page/search/SearchPage.dart';
+import 'package:twitter_clone_ui/ui/page/settings/accountSettings/about/aboutTwitter.dart';
+import 'package:twitter_clone_ui/ui/page/settings/accountSettings/accessibility/accessibility.dart';
+import 'package:twitter_clone_ui/ui/page/settings/accountSettings/accountSettingsPage.dart';
+import 'package:twitter_clone_ui/ui/page/settings/accountSettings/contentPrefrences/contentPreference.dart';
+import 'package:twitter_clone_ui/ui/page/settings/accountSettings/contentPrefrences/trends/trendsPage.dart';
+import 'package:twitter_clone_ui/ui/page/settings/accountSettings/dataUsage/dataUsagePage.dart';
+import 'package:twitter_clone_ui/ui/page/settings/accountSettings/displaySettings/displayAndSoundPage.dart';
+import 'package:twitter_clone_ui/ui/page/settings/accountSettings/privacyAndSafety/directMessage/directMessage.dart';
+import 'package:twitter_clone_ui/ui/page/settings/accountSettings/privacyAndSafety/privacyAndSafetyPage.dart';
+import 'package:twitter_clone_ui/ui/page/settings/accountSettings/proxy/proxyPage.dart';
+import 'package:twitter_clone_ui/ui/page/settings/settingsAndPrivacyPage.dart';
 
 import '../helper/customRoute.dart';
 
@@ -116,10 +133,10 @@ class Routes {
         return CustomRoute<bool>(
           builder: (BuildContext context) => const PrivacyAndSaftyPage(),
         );
-      case "NotificationPage":
-        return CustomRoute<bool>(
-          builder: (BuildContext context) => const NotificationPage(),
-        );
+      // case "NotificationPage":
+      //   return CustomRoute<bool>(
+      //     builder: (BuildContext context) => const NotificationPage(),
+      //   );
       case "ContentPrefrencePage":
         return CustomRoute<bool>(
           builder: (BuildContext context) => const ContentPrefrencePage(),

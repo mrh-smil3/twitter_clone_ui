@@ -10,6 +10,7 @@ import 'package:provider/provider.dart';
 import 'package:twitter_clone_ui/helper/enum.dart';
 import 'package:twitter_clone_ui/helper/utility.dart';
 import 'package:twitter_clone_ui/state/authState.dart';
+import 'package:twitter_clone_ui/ui/page/Auth/selectAuthMethod.dart';
 import 'package:twitter_clone_ui/ui/page/common/updateApp.dart';
 import 'package:twitter_clone_ui/ui/page/homePage.dart';
 import 'package:twitter_clone_ui/ui/theme/theme.dart';
