@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_twitter_clone/helper/utility.dart';
-import 'package:flutter_twitter_clone/ui/page/common/splash.dart';
-import 'package:flutter_twitter_clone/ui/theme/theme.dart';
-import 'package:flutter_twitter_clone/widgets/customFlatButton.dart';
-import 'package:flutter_twitter_clone/widgets/newWidget/title_text.dart';
+import 'package:twitter_clone_ui/helper/utility.dart';
+import 'package:twitter_clone_ui/ui/page/common/splash.dart';
+import 'package:twitter_clone_ui/ui/theme/theme.dart';
+import 'package:twitter_clone_ui/widgets/customFlatButton.dart';
+import 'package:twitter_clone_ui/widgets/newWidget/title_text.dart';
 
 class UpdateApp extends StatefulWidget {
   const UpdateApp({Key? key}) : super(key: key);

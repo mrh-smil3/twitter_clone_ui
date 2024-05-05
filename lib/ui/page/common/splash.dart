@@ -5,15 +5,14 @@ import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_twitter_clone/helper/enum.dart';
-import 'package:flutter_twitter_clone/helper/utility.dart';
-import 'package:flutter_twitter_clone/state/authState.dart';
-import 'package:flutter_twitter_clone/ui/page/Auth/selectAuthMethod.dart';
-import 'package:flutter_twitter_clone/ui/page/common/updateApp.dart';
-import 'package:flutter_twitter_clone/ui/page/homePage.dart';
-import 'package:flutter_twitter_clone/ui/theme/theme.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
+import 'package:twitter_clone_ui/helper/enum.dart';
+import 'package:twitter_clone_ui/helper/utility.dart';
+import 'package:twitter_clone_ui/state/authState.dart';
+import 'package:twitter_clone_ui/ui/page/common/updateApp.dart';
+import 'package:twitter_clone_ui/ui/page/homePage.dart';
+import 'package:twitter_clone_ui/ui/theme/theme.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({Key? key}) : super(key: key);
