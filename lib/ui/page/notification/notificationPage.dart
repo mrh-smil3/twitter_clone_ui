@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_twitter_clone/helper/enum.dart';
-import 'package:flutter_twitter_clone/model/feedModel.dart';
-import 'package:flutter_twitter_clone/model/notificationModel.dart';
-import 'package:flutter_twitter_clone/state/authState.dart';
-import 'package:flutter_twitter_clone/state/notificationState.dart';
-import 'package:flutter_twitter_clone/ui/page/notification/widget/follow_notification_tile.dart';
-import 'package:flutter_twitter_clone/ui/page/notification/widget/post_like_tile.dart';
-import 'package:flutter_twitter_clone/ui/theme/theme.dart';
-import 'package:flutter_twitter_clone/widgets/customAppBar.dart';
-import 'package:flutter_twitter_clone/widgets/customWidgets.dart';
-import 'package:flutter_twitter_clone/widgets/newWidget/emptyList.dart';
 import 'package:provider/provider.dart';
+import 'package:twitter_clone_ui/helper/enum.dart';
+import 'package:twitter_clone_ui/model/feedModel.dart';
+import 'package:twitter_clone_ui/model/notificationModel.dart';
+import 'package:twitter_clone_ui/state/authState.dart';
+import 'package:twitter_clone_ui/state/notificationState.dart';
+import 'package:twitter_clone_ui/ui/page/notification/widget/follow_notification_tile.dart';
+import 'package:twitter_clone_ui/ui/page/notification/widget/post_like_tile.dart';
+import 'package:twitter_clone_ui/ui/theme/theme.dart';
+import 'package:twitter_clone_ui/widgets/customAppBar.dart';
+import 'package:twitter_clone_ui/widgets/customWidgets.dart';
+import 'package:twitter_clone_ui/widgets/newWidget/emptyList.dart';
 
 class NotificationPage extends StatefulWidget {
   const NotificationPage({Key? key, required this.scaffoldKey})
