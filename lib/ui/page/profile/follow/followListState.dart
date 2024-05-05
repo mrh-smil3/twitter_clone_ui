@@ -1,9 +1,9 @@
-import 'package:flutter_twitter_clone/helper/enum.dart';
-import 'package:flutter_twitter_clone/helper/shared_prefrence_helper.dart';
-import 'package:flutter_twitter_clone/helper/utility.dart';
-import 'package:flutter_twitter_clone/model/user.dart';
-import 'package:flutter_twitter_clone/state/appState.dart';
-import 'package:flutter_twitter_clone/ui/page/common/locator.dart';
+import 'package:twitter_clone_ui/helper/enum.dart';
+import 'package:twitter_clone_ui/helper/shared_prefrence_helper.dart';
+import 'package:twitter_clone_ui/helper/utility.dart';
+import 'package:twitter_clone_ui/model/user.dart';
+import 'package:twitter_clone_ui/state/appState.dart';
+import 'package:twitter_clone_ui/ui/page/common/locator.dart';
 
 enum StateType { following, follower }
 
@@ -21,6 +21,8 @@ class FollowListState extends AppState {
 
   UserModel? _currentUser;
   late StateType stateType;
+
+  bool get isbusy => null;
 
   /// Follow / Unfollow user
   Future<void> followUser(UserModel secondUser) async {
