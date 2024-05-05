@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_twitter_clone/state/authState.dart';
-import 'package:flutter_twitter_clone/ui/page/profile/widgets/circular_image.dart';
-import 'package:flutter_twitter_clone/ui/theme/theme.dart';
 import 'package:provider/provider.dart';
+import 'package:twitter_clone_ui/state/authState.dart';
+import 'package:twitter_clone_ui/ui/page/profile/widgets/circular_image.dart';
+import 'package:twitter_clone_ui/ui/theme/theme.dart';
 
 import 'customWidgets.dart';
 
