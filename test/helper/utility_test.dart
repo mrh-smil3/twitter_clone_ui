@@ -21,8 +21,8 @@ void main() {
           Utility.getChatTime(date.add(Duration(days: -1)).toString());
       expect(yesterday, "1d");
 
-      var randomDate = Utility.getChatTime("2020-03-19T14:12:46.286410");
-      expect(randomDate, "19 Mar");
+      var randomDate = Utility.getChatTime("2024-05-19T14:12:46.286410");
+      expect(randomDate, "6 Mei");
     });
 
     test('Check Social Links', () {
