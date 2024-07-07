@@ -60,6 +60,7 @@ dependencies:
   qr_flutter: ^4.1.0
   rxdart: ^0.27.2
   translator: ^0.1.7
+  http: ^0.13.3
 
 dev_dependencies:
   test: ^1.17.10
